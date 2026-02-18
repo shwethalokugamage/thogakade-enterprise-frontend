@@ -1,1 +1,189 @@
-<button routerLink="/login/" type="button" class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Default</button>
+<!-- Navigation -->
+<nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center">
+                <h1 class="text-3xl font-bold text-purple-600">Thogakade</h1>
+            </div>
+            <div class="flex gap-4 items-center">
+                <a routerLink="/login/" class="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-all duration-300 font-semibold shadow-md hover:shadow-lg">Login</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-br from-purple-500 via-purple-600 to-purple-700 text-white py-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-5xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">Welcome to Thogakade</h2>
+        <p class="text-xl md:text-2xl text-purple-100 mb-10 max-w-3xl mx-auto font-light">
+            Manage your business inventory, customers, and orders efficiently with our comprehensive management system.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a routerLink="/login/" class="px-8 py-4 bg-white text-purple-600 rounded-lg hover:bg-gray-50 transition-all duration-300 font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105">Get Started</a>
+            <a href="#features" class="px-8 py-4 bg-purple-500 border-2 border-white text-white rounded-lg hover:bg-purple-800 transition-all duration-300 font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Key Features</h3>
+            <p class="text-lg text-gray-600">Everything you need to run your business smoothly</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-bold text-gray-900 mb-3">Fast & Reliable</h4>
+                <p class="text-gray-600 leading-relaxed">Lightning-fast performance with 99.9% uptime reliability for all your business operations.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-bold text-gray-900 mb-3">Secure</h4>
+                <p class="text-gray-600 leading-relaxed">Enterprise-grade security with encrypted data and regular security audits for your safety.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-2xl font-bold text-gray-900 mb-3">Real-time Analytics</h4>
+                <p class="text-gray-600 leading-relaxed">Real-time analytics and insights to help you make informed business decisions faster.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Services</h3>
+            <p class="text-lg text-gray-600">Comprehensive solutions for your business needs</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Service 1 -->
+            <div class="flex gap-6 lg:flex-row items-start">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-purple-500 text-white shadow-lg">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">Inventory Management</h4>
+                    <p class="text-gray-600 leading-relaxed">Track your stock levels, manage suppliers, and automate inventory updates in real-time with intelligent alerts.</p>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="flex gap-6 lg:flex-row items-start">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-green-500 text-white shadow-lg">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">Order Management</h4>
+                    <p class="text-gray-600 leading-relaxed">Create, track, and manage orders with ease. Get instant notifications for every order status change and updates.</p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="flex gap-6 lg:flex-row items-start">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-blue-500 text-white shadow-lg">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">Customer Management</h4>
+                    <p class="text-gray-600 leading-relaxed">Manage customer details, track interactions, and improve customer relationships with detailed CRM features.</p>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="flex gap-6 lg:flex-row items-start">
+                <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-pink-500 text-white shadow-lg">
+                        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-2">Reports & Analytics</h4>
+                    <p class="text-gray-600 leading-relaxed">Generate comprehensive reports and access detailed analytics for your business performance and growth metrics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="bg-gradient-to-r from-purple-600 to-purple-800 py-20">
+    <div class="max-w-4xl mx-auto text-center px-4">
+        <h3 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Get Started?</h3>
+        <p class="text-purple-100 text-lg md:text-xl mb-10 font-light">Join thousands of businesses using Thogakade to manage their operations efficiently and effectively.</p>
+        <a routerLink="/login/" class="inline-block px-10 py-4 bg-white text-purple-600 rounded-lg hover:bg-gray-50 transition-all duration-300 font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105">Start Free Trial</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Thogakade</h4>
+                <p class="text-sm leading-relaxed">A comprehensive business management solution designed for modern enterprises and small businesses.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-white transition-colors duration-200">Features</a></li>
+                    <li><a routerLink="/login/" class="hover:text-white transition-colors duration-200">Login</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Support</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors duration-200">Help Center</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors duration-200">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors duration-200">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Legal</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center text-sm">
+            <p>&copy; 2026 Thogakade. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
