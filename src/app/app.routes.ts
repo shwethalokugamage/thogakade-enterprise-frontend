@@ -22,7 +22,8 @@ export const routes: Routes = [
             },
             {
                 path:"customer",
-                component:Customer
+                component:Customer,
+                
             },
             {
                 path:"item",
